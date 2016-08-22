@@ -1,0 +1,33 @@
+<div class="infopanel trending"><!-- Infopanel  -->
+    <div id="infoPanelContainer">
+        <div id="infoPanelHeader" class="toBeImplemented" title="Coming Soon">
+            <div class="iphgeoTitle">Trending</div>
+        </div>
+        <div id="infoPanelBody">
+            <div class="statLink infoPanelDetail toBeImplemented" title="Coming Soon" id="trending{{$index}}"  ng-class-odd="'odd'" ng-class-even="'even'" ng-repeat="trend in trends"  ng-if="$index < 3">
+                <div class="row">
+                    <a href="{{trend.url}}" class="">
+                        {{trend.title}}
+                    </a>
+                </div>
+            </div>
+            <div class="statLink infoPanelDetail toBeImplemented" title="Coming Soon" id="trending{{$index}}"  ng-class-odd="'odd'" ng-class-even="'even'" ng-repeat="trend in trends" ng-if="$index >= 3" ng-show="showAll">
+                <div class="row">
+                    <a href="{{trend.url}}" class="">
+                        {{trend.title}}
+                    </a>
+                </div>
+            </div>
+            <div class="statLink infoPanelDetail" ng-show="trends.length > 3">
+                <a ng-click="showAll = true" ng-show="!showAll" class="clickableLink">
+                    <i class="fa fa-plus-circle"></i>
+                    See All
+                </a>
+                <a ng-click="showAll = false" ng-show="showAll" class="clickableLink ng-hide">
+                    <i class="fa fa-minus-circle"></i>
+                    See Less
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

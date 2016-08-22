@@ -1,0 +1,14 @@
+<div ng-show="relatedTools">
+    <related-tools tools="relatedTools"></related-tools>
+</div>
+<div ng-show="trends.length > 0">
+    <trending trends="trends"></trending>
+</div>
+<div ng-show="INCLUDE_SEARCH_INTEGRATION">
+   <info-panel
+       paneltitle="infoPanel.panelTitle"
+       state="infoPanel.state"
+       duration="infoPanel.duration"
+       errors="infoPanel.errors"
+       facts="infoPanel.facts"></info-panel>
+</div>

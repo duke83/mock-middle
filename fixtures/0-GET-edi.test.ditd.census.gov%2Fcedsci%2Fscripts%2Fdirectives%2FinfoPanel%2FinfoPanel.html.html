@@ -1,0 +1,59 @@
+<div id="infoPanelContainer" class="panel">
+    <div id="infoPanelHeader" class="panel-heading" ng-show="state == 'loading' || state == 'success'">
+        <div class="accordion-toggle" data-toggle="collapse" data-parent="#disambiguationGroup, #naicsGroup, #infoPanelGroup" data-target="#infoPanelAccordion" aria-expanded="true">
+            <h3 class="panel-title visible-xs visible-sm visible-md hidden-lg">
+                <!-- Info Panel-->
+
+                {{panelTitle}}
+
+                <span class="glyphicon glyphicon-chevron-right chevron"></span>
+            </h3>
+            <div class="naicsTitle hidden-xs visible-lg">
+
+                <div class="XiphgeoTitle hidden-xs visible-lg">{{panelTitle}}</div>
+
+            </div>
+        </div><!-- end div class="accordion-toggle collapsed" -->
+    </div><!-- end div id="infoPanelHeader" -->
+
+    <div id="infoPanelAccordion" class="panel-collapse collapse in" aria-expanded="true" style="">
+        <div id="infoPanelBody panel-body">
+            <!-- Display list of facts - begin -->
+            <div id="infoPanelDetail0" class="statLink infoPanelDetail" ng-class-odd="'odd'" ng-class-even="'even'" ng-repeat="fact in facts">
+                <div class="ipTitle">
+                    {{fact.title}}
+                </div>
+                <div class="ipValue">
+                    <span>{{fact.value}}</span>
+                </div>
+                <div class="ipSrc">
+                    <span>
+                        Source: <a href="{{fact.source.url}}" target="_blank">{{fact.source.title}}</a>
+                    </span>
+                </div>
+            </div>
+            <!-- Display list of facts - end -->
+        </div>
+        <div id="dynamicNavBody">
+            <div class="dynamicLinksHeader" ng-show="{{links != null}}">Links</div>
+
+            <div id="dynamicNavItem0" class="dynamicNavItem" ng-repeat="link in links">
+                <div class="dynamicNavLink" >
+                    <span>
+                       <a href="{{link.url}}">{{link.title}}</a>
+                    </span>
+                </div><!-- end div class="dynamicNavLink" -->
+            </div><!-- end div id="dynamicNavItem%=i%" -->
+
+        </div>
+    </div>
+
+    <div class="serverErrorReport" ng-show="errors != null">
+       [Development systems only--not displayed in production systems]<br/>
+      <div class="serverErrorDetails" ng-repeat="error in errors">
+         {{error}}<br/>
+      </div>
+    </div>
+
+    <div class="serverDurationReport">{{duration}}</div>
+</div>

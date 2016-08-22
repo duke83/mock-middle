@@ -1,0 +1,58 @@
+[
+  {
+    "title": "2014 Population Estimate",
+    "value": "226,908",
+    "source": {
+      "url": "http://www.census.gov/popest",
+      "title": "Vintage 2014 Population Estimates: County Total Population and Components of Change"
+    }
+  },
+  {
+    "title": "Median Household Income ",
+    "value": "$ 103,208",
+    "source": {
+      "url": "http://www.census.gov/acs",
+      "title": "2009-2013 American Community Survey 5-Year Estimates"
+    }
+  },
+  {
+    "title": "Individuals below poverty level ",
+    "value": "8.0 % ",
+    "source": {
+      "url": "2009-2013 American Community Survey 5-Year Profiles",
+      "title": "http://www.census.gov/acs"
+    }
+  },
+  {
+    "title": "Educational Attainment: Percent high school graduate or higher ",
+    "value": "93.3 %",
+    "source": {
+      "url": "http://www.census.gov/acs",
+      "title": "2009-2013 American Community Survey 5-Year Profiles"
+    }
+  },
+  {
+    "title": "Health Insurance Coverage: Percent uninsured ",
+    "value": "10.9 % ",
+    "source": {
+      "url": "http://www.census.gov/acs",
+      "title": "2009-2013 American Community Survey 5-Year Profiles"
+    }
+  },
+  {
+    "title": "Total Housing Units ",
+    "value": "106,740",
+    "source": {
+      "url": "http://www.census.gov/acs",
+      "title": "2009-2013 American Community Survey 5-Year Estimates"
+    }
+  },
+  {
+    "title": "Number of Companies ",
+    "value": "19,422",
+    "source": {
+      "url": "http://www.census.gov/",
+      "title": "2007 Survey of Business Owners"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+<div class="infopanel">
+    <div id="infoPanelContainer">
+        <div id="infoPanelBody">
+            <div class="statLink infoPanelDetail row">
+                <div class="pull-right footnotesLinks" >
+                    <a ng-show="$parent.viewFootNotes" ng-click="$parent.viewFootNotes=false" class="clickableLink">
+                        Hide Foot Notes
+                    </a>
+                    <a ng-hide="$parent.viewFootNotes" ng-click="$parent.viewFootNotes=true" class="clickableLink">
+                        Show Foot Notes
+                    </a>
+                </div>
+                <div class="pull-right footnotesLinks">
+                     <a ng-show="$parent.viewTableNotes" ng-click="$parent.viewTableNotes=false" class="clickableLink">
+                        Hide Data Notes
+                    </a>
+                    <a ng-hide="$parent.viewTableNotes" ng-click="$parent.viewTableNotes=true" class="clickableLink">
+                        Show Data Notes
+                    </a>
+                </div>
+            </div>
+            <!--<div class="statLink infoPanelDetail row odd">-->
+                <!--<a ng-hide="$parent.viewGeographyNotes" ng-click="$parent.viewGeographyNotes=true" class="clickableLink">-->
+                    <!--View Geography Notes-->
+                <!--</a>-->
+                <!--<a ng-show="$parent.viewGeographyNotes" ng-click="$parent.viewGeographyNotes=false" class="clickableLink">-->
+                    <!--Hide Geography Notes-->
+                <!--</a>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
