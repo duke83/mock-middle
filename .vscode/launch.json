@@ -25,7 +25,7 @@
             "name": "Launch drypack-scaffolding",
             "type":  "node",
             "request": "launch",
-            "program": "${workspaceRoot}/node_modules/drydock-scaffold/lib/index.js",
+            "program": "${workspaceRoot}/drydock-scaffold/lib/index.js",
             "stopOnEntry": false,
             "args": [ "import", "/Users/kdm/census/mock-middle/data/Cedsci-US-Age-DavisCo-SLC-08-22-2016.json.har"],
             "cwd": "${workspaceRoot}",
