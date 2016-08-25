@@ -2,14 +2,14 @@ var fs = require("fs");
 
 var path = require("path");
 
-var Drydock = require("drydock");
+var Drydock = require("./drydock");
 
 var createMock = function (options) {
   options = options ? options : {};
   var mock = new Drydock({
     port: options.port || 1337,
     ip: options.ip || "0.0.0.0",
-    verbose: !!options.verbose,
+    verbose: true, //!!options.verbose,
     initialState: {},
     cors: true
   });
@@ -18,6 +18,7 @@ var createMock = function (options) {
     method: "POST",
     path: "/summaryLevelService",
     hostname: "localhost",
+  //  selectedHandler:"3-POST-localhost/summaryLevelService",
     handlers: {
       "0-POST-localhost/summaryLevelService": {
         description: "0-POST-localhost/summaryLevelService",
@@ -46,7 +47,7 @@ var createMock = function (options) {
       "3-POST-localhost/summaryLevelService": {
         description: "3-POST-localhost/summaryLevelService",
         requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"facets\\\":[\\\"summaryLevels\\\"],\\\"geoIds\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\",\\\"1600000US4967000\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
+        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"facets\\\":[\\\"summaryLevels\\\"],\\\"geoIdsxxx\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\",\\\"1600000US4967000\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
         handler: function (request) {
           return require("./fixtures/3-POST-localhost%2FsummaryLevelService.json");
         }
@@ -58,6 +59,7 @@ var createMock = function (options) {
     method: "POST",
     path: "/facetService",
     hostname: "localhost",
+    //selectedHandler : "1-POST-localhost/facetService",
     handlers: {
       "0-POST-localhost/facetService": {
         description: "0-POST-localhost/facetService",
@@ -129,6 +131,22 @@ var createMock = function (options) {
     name: "POST-localhost/tableService",
     method: "POST",
     path: "/tableService",
+    hostname: "localhost",
+    handlers: {
+      "0-POST-localhost/tableService": {
+        description: "0-POST-localhost/tableService",
+        requestQueryString: "[]",
+        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"geoIds\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\",\\\"1600000US4967000\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
+        handler: function (request) {
+          return require("./fixtures/0-POST-localhost%2FtableService.json");
+        }
+      }
+    }
+  });
+   mock.jsonRoute({
+    name: "k1",
+    method: "GET",
+    path: "/k1",
     hostname: "localhost",
     handlers: {
       "0-POST-localhost/tableService": {
