@@ -1,0 +1,70 @@
+{
+  "response": [
+    {
+      "codes": [
+        "0500000US37057"
+      ],
+      "name": "Davidson County, North Carolina"
+    },
+    {
+      "codes": [
+        "0500000US47037"
+      ],
+      "name": "Davidson County, Tennessee"
+    },
+    {
+      "codes": [
+        "0500000US37059"
+      ],
+      "name": "Davie County, North Carolina"
+    },
+    {
+      "codes": [
+        "0500000US18027"
+      ],
+      "name": "Daviess County, Indiana"
+    },
+    {
+      "codes": [
+        "0500000US21059"
+      ],
+      "name": "Daviess County, Kentucky"
+    },
+    {
+      "codes": [
+        "0500000US29061"
+      ],
+      "name": "Daviess County, Missouri"
+    },
+    {
+      "codes": [
+        "0500000US19051"
+      ],
+      "name": "Davis County, Iowa"
+    },
+    {
+      "codes": [
+        "0500000US49011"
+      ],
+      "name": "Davis County, Utah"
+    },
+    {
+      "codes": [
+        "0500000US46035"
+      ],
+      "name": "Davison County, South Dakota"
+    },
+    {
+      "codes": [
+        "0500000US13161"
+      ],
+      "name": "Jeff Davis County, Georgia"
+    },
+    {
+      "codes": [
+        "0500000US48243"
+      ],
+      "name": "Jeff Davis County, Texas"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "tableViewportContent": "<div id=\"table_container\"><div id=\"inner_table_container\"><table id=\"data\" class=\"stat-tbl\"><tr class=\"h\"><th colspan=\"1\" rowspan=\"2\"class=\"metastub left right regular\"id=\"pc1\">&#160;</th><th colspan=\"1\"class=\"L0 boxhead label top left regular\"id=\"c1\">United States</th><th colspan=\"1\"class=\"L0 boxhead label top right regular\"id=\"c2\">Davis County, Utah</th></tr><tr class=\"h\"><th colspan=\"1\"class=\"L0 boxhead label bottom left regular\"id=\"c3\">Estimate</th><th colspan=\"1\"class=\"L0 boxhead label bottom right regular\"id=\"c3\">Estimate</th></tr><tr class='h data' data-row-id='row1'><th colspan=\"1\"class=\"stub label L0 left regular top\"id=\"r1\"headers=\"pc1\">Total:</th><td class='field left top'headers='c1 c3 r1' data-col-id='col1'>314,107,084</td><td class='field right top'headers='c2 c3 r1' data-col-id='col2'>317,646</td></tr><tr class='h data stripe' data-row-id='row2'><th colspan=\"1\"class=\"stub label L1 left regular\"id=\"r2\"headers=\"pc1\">Male:</th><td class='field left'headers='c1 c3 r1 r2' data-col-id='col1'>154,515,159</td><td class='field right'headers='c2 c3 r1 r2' data-col-id='col2'>159,678</td></tr><tr class='h data' data-row-id='row3'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r3\"headers=\"pc1\">Under 5 years</th><td class='field left'headers='c1 c3 r1 r2 r3' data-col-id='col1'>10,205,881</td><td class='field right'headers='c2 c3 r1 r2 r3' data-col-id='col2'>15,663</td></tr><tr class='h data stripe' data-row-id='row4'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r4\"headers=\"pc1\">5 to 9 years</th><td class='field left'headers='c1 c3 r1 r2 r4' data-col-id='col1'>10,437,256</td><td class='field right'headers='c2 c3 r1 r2 r4' data-col-id='col2'>16,247</td></tr><tr class='h data' data-row-id='row5'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r5\"headers=\"pc1\">10 to 14 years</th><td class='field left'headers='c1 c3 r1 r2 r5' data-col-id='col1'>10,590,658</td><td class='field right'headers='c2 c3 r1 r2 r5' data-col-id='col2'>15,332</td></tr><tr class='h data stripe' data-row-id='row6'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r6\"headers=\"pc1\">15 to 17 years</th><td class='field left'headers='c1 c3 r1 r2 r6' data-col-id='col1'>6,482,243</td><td class='field right'headers='c2 c3 r1 r2 r6' data-col-id='col2'>8,276</td></tr><tr class='h data' data-row-id='row7'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r7\"headers=\"pc1\">18 and 19 years</th><td class='field left'headers='c1 c3 r1 r2 r7' data-col-id='col1'>4,548,783</td><td class='field right'headers='c2 c3 r1 r2 r7' data-col-id='col2'>4,531</td></tr><tr class='h data stripe' data-row-id='row8'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r8\"headers=\"pc1\">20 years</th><td class='field left'headers='c1 c3 r1 r2 r8' data-col-id='col1'>2,454,800</td><td class='field right'headers='c2 c3 r1 r2 r8' data-col-id='col2'>1,996</td></tr><tr class='h data' data-row-id='row9'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r9\"headers=\"pc1\">21 years</th><td class='field left'headers='c1 c3 r1 r2 r9' data-col-id='col1'>2,385,111</td><td class='field right'headers='c2 c3 r1 r2 r9' data-col-id='col2'>2,515</td></tr><tr class='h data stripe' data-row-id='row10'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r10\"headers=\"pc1\">22 to 24 years</th><td class='field left'headers='c1 c3 r1 r2 r10' data-col-id='col1'>6,622,417</td><td class='field right'headers='c2 c3 r1 r2 r10' data-col-id='col2'>6,527</td></tr><tr class='h data' data-row-id='row11'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r11\"headers=\"pc1\">25 to 29 years</th><td class='field left'headers='c1 c3 r1 r2 r11' data-col-id='col1'>10,845,393</td><td class='field right'headers='c2 c3 r1 r2 r11' data-col-id='col2'>11,025</td></tr><tr class='h data stripe' data-row-id='row12'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r12\"headers=\"pc1\">30 to 34 years</th><td class='field left'headers='c1 c3 r1 r2 r12' data-col-id='col1'>10,457,546</td><td class='field right'headers='c2 c3 r1 r2 r12' data-col-id='col2'>12,823</td></tr><tr class='h data' data-row-id='row13'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r13\"headers=\"pc1\">35 to 39 years</th><td class='field left'headers='c1 c3 r1 r2 r13' data-col-id='col1'>9,869,846</td><td class='field right'headers='c2 c3 r1 r2 r13' data-col-id='col2'>11,625</td></tr><tr class='h data stripe' data-row-id='row14'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r14\"headers=\"pc1\">40 to 44 years</th><td class='field left'headers='c1 c3 r1 r2 r14' data-col-id='col1'>10,399,619</td><td class='field right'headers='c2 c3 r1 r2 r14' data-col-id='col2'>9,368</td></tr><tr class='h data' data-row-id='row15'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r15\"headers=\"pc1\">45 to 49 years</th><td class='field left'headers='c1 c3 r1 r2 r15' data-col-id='col1'>10,740,238</td><td class='field right'headers='c2 c3 r1 r2 r15' data-col-id='col2'>8,560</td></tr><tr class='h data stripe' data-row-id='row16'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r16\"headers=\"pc1\">50 to 54 years</th><td class='field left'headers='c1 c3 r1 r2 r16' data-col-id='col1'>11,046,847</td><td class='field right'headers='c2 c3 r1 r2 r16' data-col-id='col2'>8,763</td></tr><tr class='h data' data-row-id='row17'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r17\"headers=\"pc1\">55 to 59 years</th><td class='field left'headers='c1 c3 r1 r2 r17' data-col-id='col1'>9,989,328</td><td class='field right'headers='c2 c3 r1 r2 r17' data-col-id='col2'>7,962</td></tr><tr class='h data stripe' data-row-id='row18'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r18\"headers=\"pc1\">60 and 61 years</th><td class='field left'headers='c1 c3 r1 r2 r18' data-col-id='col1'>3,639,567</td><td class='field right'headers='c2 c3 r1 r2 r18' data-col-id='col2'>2,613</td></tr><tr class='h data' data-row-id='row19'><th colspan=\"1\"class=\"stub L2 label left regular\"id=\"r19\"headers=\"pc1\">62 to 64 years</th><td class='field left'headers='c1 c3 r1 r2 r19' data-col-id='col1'>4,974,429</td><td class='field right'headers='c2 c3 r1 r2 r19' data-col-id='col2'>3,287</td></tr><tr class='h data stripe' data-row-id='row20'><th colspan=\"1\"class=\"stub L2 label left bottom regular\"id=\"r20\"headers=\"pc1\">65 and 66 years</th><td class='field left bottom'headers='c1 c3 r1 r2 r20' data-col-id='col1'>2,915,262</td><td class='field right bottom'headers='c2 c3 r1 r2 r20' data-col-id='col2'>1,904</td></tr></table></div></div>",
+  "horizontalAxis": {
+    "hasColumnBeforeFirst": false,
+    "hasColumnAfterLast": false,
+    "positionInfoAvailable": true,
+    "firstDataColumnPosition": 1,
+    "lastDataColumnPosition": 2,
+    "totalDataColumnCount": 2
+  },
+  "verticalAxis": {
+    "hasRowBeforeFirst": false,
+    "hasRowAfterLast": true,
+    "positionInfoAvailable": true,
+    "firstDataRowPosition": 1,
+    "lastDataRowPosition": 20,
+    "totalDataRowCount": 49
+  },
+  "viewportPosition": null,
+  "marginOfErrorAvailable": true,
+  "columnInfoById": {
+    "col1": {
+      "geoSummaryLevelCode": "010",
+      "categoryInfoByDimId": {
+        "GEO": {
+          "id": "0100000US",
+          "label": "United States"
+        },
+        "EST": {
+          "id": "EST",
+          "label": "Estimate"
+        }
+      }
+    },
+    "col2": {
+      "geoSummaryLevelCode": "050",
+      "categoryInfoByDimId": {
+        "GEO": {
+          "id": "0500000US49011",
+          "label": "Davis County, Utah"
+        },
+        "EST": {
+          "id": "EST",
+          "label": "Estimate"
+        }
+      }
+    }
+  },
+  "rowInfoById": {
+    "row1": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD01",
+          "label": "Total:"
+        }
+      }
+    },
+    "row2": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD02",
+          "label": "Total: - Male:",
+          "shortLabel": "Male:"
+        }
+      }
+    },
+    "row3": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD03",
+          "label": "Total: - Male: - Under 5 years",
+          "shortLabel": "Under 5 years"
+        }
+      }
+    },
+    "row4": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD04",
+          "label": "Total: - Male: - 5 to 9 years",
+          "shortLabel": "5 to 9 years"
+        }
+      }
+    },
+    "row5": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD05",
+          "label": "Total: - Male: - 10 to 14 years",
+          "shortLabel": "10 to 14 years"
+        }
+      }
+    },
+    "row6": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD06",
+          "label": "Total: - Male: - 15 to 17 years",
+          "shortLabel": "15 to 17 years"
+        }
+      }
+    },
+    "row7": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD07",
+          "label": "Total: - Male: - 18 and 19 years",
+          "shortLabel": "18 and 19 years"
+        }
+      }
+    },
+    "row8": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD08",
+          "label": "Total: - Male: - 20 years",
+          "shortLabel": "20 years"
+        }
+      }
+    },
+    "row9": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD09",
+          "label": "Total: - Male: - 21 years",
+          "shortLabel": "21 years"
+        }
+      }
+    },
+    "row10": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD10",
+          "label": "Total: - Male: - 22 to 24 years",
+          "shortLabel": "22 to 24 years"
+        }
+      }
+    },
+    "row11": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD11",
+          "label": "Total: - Male: - 25 to 29 years",
+          "shortLabel": "25 to 29 years"
+        }
+      }
+    },
+    "row12": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD12",
+          "label": "Total: - Male: - 30 to 34 years",
+          "shortLabel": "30 to 34 years"
+        }
+      }
+    },
+    "row13": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD13",
+          "label": "Total: - Male: - 35 to 39 years",
+          "shortLabel": "35 to 39 years"
+        }
+      }
+    },
+    "row14": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD14",
+          "label": "Total: - Male: - 40 to 44 years",
+          "shortLabel": "40 to 44 years"
+        }
+      }
+    },
+    "row15": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD15",
+          "label": "Total: - Male: - 45 to 49 years",
+          "shortLabel": "45 to 49 years"
+        }
+      }
+    },
+    "row16": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD16",
+          "label": "Total: - Male: - 50 to 54 years",
+          "shortLabel": "50 to 54 years"
+        }
+      }
+    },
+    "row17": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD17",
+          "label": "Total: - Male: - 55 to 59 years",
+          "shortLabel": "55 to 59 years"
+        }
+      }
+    },
+    "row18": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD18",
+          "label": "Total: - Male: - 60 and 61 years",
+          "shortLabel": "60 and 61 years"
+        }
+      }
+    },
+    "row19": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD19",
+          "label": "Total: - Male: - 62 to 64 years",
+          "shortLabel": "62 to 64 years"
+        }
+      }
+    },
+    "row20": {
+      "categoryInfoByDimId": {
+        "VDIM": {
+          "id": "VD20",
+          "label": "Total: - Male: - 65 and 66 years",
+          "shortLabel": "65 and 66 years"
+        }
+      }
+    }
+  },
+  "filterableDimsAvailable": false,
+  "filterableDims": []
+}

@@ -9,152 +9,126 @@ var createMock = function (options) {
   var mock = new Drydock({
     port: options.port || 1337,
     ip: options.ip || "0.0.0.0",
-    verbose: true, //!!options.verbose,
+    verbose: true,//!!options.verbose,
     initialState: {},
     cors: true
   });
   mock.jsonRoute({
-    name: "POST-localhost/summaryLevelService",
+    name: "POST-cedsci-web6.test.ditd.census.gov/summaryLevelService",
     method: "POST",
     path: "/summaryLevelService",
-    hostname: "localhost",
-  //  selectedHandler:"3-POST-localhost/summaryLevelService",
+    hostname: "cedsci-web6.test.ditd.census.gov",
     handlers: {
-      "0-POST-localhost/summaryLevelService": {
-        description: "0-POST-localhost/summaryLevelService",
+      "0-POST-cedsci-web6.test.ditd.census.gov/summaryLevelService": {
+        description: "0-POST-cedsci-web6.test.ditd.census.gov/summaryLevelService",
         requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"facets\\\":[\\\"summaryLevels\\\"],\\\"geoIds\\\":[],\\\"topics\\\":[],\\\"naicsCodes\\\":[]}}\"}",
+        requestPostData: "{\"mimeType\":\"application/json;charset=utf-8\",\"params\":[],\"text\":\"{\\\"request\\\":{\\\"facets\\\":[\\\"summaryLevels\\\"],\\\"geoIds\\\":[],\\\"topics\\\":[],\\\"naicsCodes\\\":[]}}\"}",
         handler: function (request) {
-          return require("./fixtures/0-POST-localhost%2FsummaryLevelService.json");
+          return require("./fixtures/0-POST-cedsci-web6.test.ditd.census.gov%2FsummaryLevelService.json");
         }
       },
-      "1-POST-localhost/summaryLevelService": {
-        description: "1-POST-localhost/summaryLevelService",
+      "1-POST-cedsci-web6.test.ditd.census.gov/summaryLevelService": {
+        description: "1-POST-cedsci-web6.test.ditd.census.gov/summaryLevelService",
         requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"facets\\\":[\\\"summaryLevels\\\"],\\\"geoIds\\\":[\\\"0100000US\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
+        requestPostData: "{\"mimeType\":\"application/json;charset=utf-8\",\"params\":[],\"text\":\"{\\\"request\\\":{\\\"facets\\\":[\\\"summaryLevels\\\"],\\\"geoIds\\\":[\\\"0100000US\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
         handler: function (request) {
-          return require("./fixtures/1-POST-localhost%2FsummaryLevelService.json");
+          return require("./fixtures/1-POST-cedsci-web6.test.ditd.census.gov%2FsummaryLevelService.json");
         }
       },
-      "2-POST-localhost/summaryLevelService": {
-        description: "2-POST-localhost/summaryLevelService",
+      "2-POST-cedsci-web6.test.ditd.census.gov/summaryLevelService": {
+        description: "2-POST-cedsci-web6.test.ditd.census.gov/summaryLevelService",
         requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"facets\\\":[\\\"summaryLevels\\\"],\\\"geoIds\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
+        requestPostData: "{\"mimeType\":\"application/json;charset=utf-8\",\"params\":[],\"text\":\"{\\\"request\\\":{\\\"facets\\\":[\\\"summaryLevels\\\"],\\\"geoIds\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
         handler: function (request) {
-          return require("./fixtures/2-POST-localhost%2FsummaryLevelService.json");
-        }
-      },
-      "3-POST-localhost/summaryLevelService": {
-        description: "3-POST-localhost/summaryLevelService",
-        requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"facets\\\":[\\\"summaryLevels\\\"],\\\"geoIdsxxx\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\",\\\"1600000US4967000\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
-        handler: function (request) {
-          return require("./fixtures/3-POST-localhost%2FsummaryLevelService.json");
+          return require("./fixtures/2-POST-cedsci-web6.test.ditd.census.gov%2FsummaryLevelService.json");
         }
       }
     }
   });
   mock.jsonRoute({
-    name: "POST-localhost/facetService",
+    name: "POST-cedsci-web6.test.ditd.census.gov/facetService",
     method: "POST",
     path: "/facetService",
-    hostname: "localhost",
-    //selectedHandler : "1-POST-localhost/facetService",
+    hostname: "cedsci-web6.test.ditd.census.gov",
     handlers: {
-      "0-POST-localhost/facetService": {
-        description: "0-POST-localhost/facetService",
+      "0-POST-cedsci-web6.test.ditd.census.gov/facetService": {
+        description: "0-POST-cedsci-web6.test.ditd.census.gov/facetService",
         requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"geoIds\\\":[\\\"0100000US\\\"],\\\"topics\\\":[],\\\"naicsCodes\\\":[],\\\"facets\\\":[]}}\"}",
+        requestPostData: "{\"mimeType\":\"application/json;charset=utf-8\",\"params\":[],\"text\":\"{\\\"request\\\":{\\\"geoIds\\\":[\\\"0100000US\\\"],\\\"topics\\\":[],\\\"naicsCodes\\\":[],\\\"facets\\\":[]}}\"}",
         handler: function (request) {
-          return require("./fixtures/0-POST-localhost%2FfacetService.json");
+          return require("./fixtures/0-POST-cedsci-web6.test.ditd.census.gov%2FfacetService.json");
         }
       },
-      "1-POST-localhost/facetService": {
-        description: "1-POST-localhost/facetService",
+      "1-POST-cedsci-web6.test.ditd.census.gov/facetService": {
+        description: "1-POST-cedsci-web6.test.ditd.census.gov/facetService",
         requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"geoIds\\\":[\\\"0100000US\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[],\\\"facets\\\":[]}}\"}",
+        requestPostData: "{\"mimeType\":\"application/json;charset=utf-8\",\"params\":[],\"text\":\"{\\\"request\\\":{\\\"geoIds\\\":[\\\"0100000US\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[],\\\"facets\\\":[]}}\"}",
         handler: function (request) {
-          return require("./fixtures/1-POST-localhost%2FfacetService.json");
+          return require("./fixtures/1-POST-cedsci-web6.test.ditd.census.gov%2FfacetService.json");
         }
       },
-      "2-POST-localhost/facetService": {
-        description: "2-POST-localhost/facetService",
+      "2-POST-cedsci-web6.test.ditd.census.gov/facetService": {
+        description: "2-POST-cedsci-web6.test.ditd.census.gov/facetService",
         requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"geoIds\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[],\\\"facets\\\":[]}}\"}",
+        requestPostData: "{\"mimeType\":\"application/json;charset=utf-8\",\"params\":[],\"text\":\"{\\\"request\\\":{\\\"geoIds\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[],\\\"facets\\\":[]}}\"}",
         handler: function (request) {
-          return require("./fixtures/2-POST-localhost%2FfacetService.json");
-        }
-      },
-      "3-POST-localhost/facetService": {
-        description: "3-POST-localhost/facetService",
-        requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"geoIds\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\",\\\"1600000US4967000\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[],\\\"facets\\\":[]}}\"}",
-        handler: function (request) {
-          return require("./fixtures/3-POST-localhost%2FfacetService.json");
+          return require("./fixtures/2-POST-cedsci-web6.test.ditd.census.gov%2FfacetService.json");
         }
       }
     }
   });
   mock.jsonRoute({
-    name: "POST-localhost/typeAheadService",
+    name: "POST-cedsci-web6.test.ditd.census.gov/typeAheadService",
     method: "POST",
     path: "/typeAheadService",
-    hostname: "localhost",
+    hostname: "cedsci-web6.test.ditd.census.gov",
     handlers: {
-      "0-POST-localhost/typeAheadService": {
-        description: "0-POST-localhost/typeAheadService",
+      "0-POST-cedsci-web6.test.ditd.census.gov/typeAheadService": {
+        description: "0-POST-cedsci-web6.test.ditd.census.gov/typeAheadService",
         requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"text\\\":\\\"davis\\\",\\\"type\\\":\\\"geo\\\",\\\"geoIds\\\":[\\\"0100000US\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
+        requestPostData: "{\"mimeType\":\"application/json;charset=utf-8\",\"params\":[],\"text\":\"{\\\"request\\\":{\\\"text\\\":\\\"dav\\\",\\\"type\\\":\\\"geo\\\",\\\"geoIds\\\":[\\\"0100000US\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
         handler: function (request) {
-          return require("./fixtures/0-POST-localhost%2FtypeAheadService.json");
+          return require("./fixtures/0-POST-cedsci-web6.test.ditd.census.gov%2FtypeAheadService.json");
         }
       },
-      "1-POST-localhost/typeAheadService": {
-        description: "1-POST-localhost/typeAheadService",
+      "1-POST-cedsci-web6.test.ditd.census.gov/typeAheadService": {
+        description: "1-POST-cedsci-web6.test.ditd.census.gov/typeAheadService",
         requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"text\\\":\\\"salt\\\",\\\"type\\\":\\\"geo\\\",\\\"geoIds\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
+        requestPostData: "{\"mimeType\":\"application/json;charset=utf-8\",\"params\":[],\"text\":\"{\\\"request\\\":{\\\"text\\\":\\\"davis\\\",\\\"type\\\":\\\"geo\\\",\\\"geoIds\\\":[\\\"0100000US\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
         handler: function (request) {
-          return require("./fixtures/1-POST-localhost%2FtypeAheadService.json");
-        }
-      },
-      "2-POST-localhost/typeAheadService": {
-        description: "2-POST-localhost/typeAheadService",
-        requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"text\\\":\\\"salt lake\\\",\\\"type\\\":\\\"geo\\\",\\\"geoIds\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
-        handler: function (request) {
-          return require("./fixtures/2-POST-localhost%2FtypeAheadService.json");
+          return require("./fixtures/1-POST-cedsci-web6.test.ditd.census.gov%2FtypeAheadService.json");
         }
       }
     }
   });
   mock.jsonRoute({
-    name: "POST-localhost/tableService",
+    name: "POST-cedsci-web6.test.ditd.census.gov/tableService",
     method: "POST",
     path: "/tableService",
-    hostname: "localhost",
+    hostname: "cedsci-web6.test.ditd.census.gov",
     handlers: {
-      "0-POST-localhost/tableService": {
-        description: "0-POST-localhost/tableService",
+      "0-POST-cedsci-web6.test.ditd.census.gov/tableService": {
+        description: "0-POST-cedsci-web6.test.ditd.census.gov/tableService",
         requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"geoIds\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\",\\\"1600000US4967000\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
+        requestPostData: "{\"mimeType\":\"application/json;charset=utf-8\",\"params\":[],\"text\":\"{\\\"request\\\":{\\\"geoIds\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
         handler: function (request) {
-          return require("./fixtures/0-POST-localhost%2FtableService.json");
+          return require("./fixtures/0-POST-cedsci-web6.test.ditd.census.gov%2FtableService.json");
         }
       }
     }
   });
-   mock.jsonRoute({
-    name: "k1",
-    method: "GET",
-    path: "/k1",
-    hostname: "localhost",
+  mock.jsonRoute({
+    name: "POST-cedsci-web6.test.ditd.census.gov/renderService",
+    method: "POST",
+    path: "/renderService",
+    hostname: "cedsci-web6.test.ditd.census.gov",
     handlers: {
-      "0-POST-localhost/tableService": {
-        description: "0-POST-localhost/tableService",
+      "0-POST-cedsci-web6.test.ditd.census.gov/renderService": {
+        description: "0-POST-cedsci-web6.test.ditd.census.gov/renderService",
         requestQueryString: "[]",
-        requestPostData: "{\"mimeType\":\"application/json;charset=UTF-8\",\"text\":\"{\\\"request\\\":{\\\"geoIds\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\",\\\"1600000US4967000\\\"],\\\"topics\\\":[\\\"Age\\\"],\\\"naicsCodes\\\":[]}}\"}",
+        requestPostData: "{\"mimeType\":\"application/json;charset=utf-8\",\"params\":[],\"text\":\"{\\\"tableGlobalId\\\":\\\"dwc.ACSSF5Y2014.B01001\\\",\\\"geoIds\\\":[\\\"0100000US\\\",\\\"0500000US49011\\\"],\\\"naicsIds\\\":[\\\"11\\\",\\\"21\\\",\\\"22\\\",\\\"23\\\",\\\"42\\\",\\\"51\\\",\\\"52\\\",\\\"53\\\",\\\"54\\\",\\\"55\\\",\\\"56\\\",\\\"61\\\",\\\"62\\\",\\\"71\\\",\\\"72\\\",\\\"81\\\",\\\"99\\\",\\\"00\\\",\\\"31-33\\\",\\\"48-49\\\",\\\"44-45\\\"],\\\"startRow\\\":1,\\\"rowCount\\\":20,\\\"startColumn\\\":1,\\\"columnCount\\\":10,\\\"marginOfError\\\":false,\\\"thematicMapTransition\\\":false,\\\"includeFilterableDims\\\":true,\\\"enableSortControls\\\":true,\\\"mapSumLevels\\\":[\\\"040\\\",\\\"050\\\",\\\"160\\\",\\\"060\\\",\\\"140\\\",\\\"500\\\",\\\"310\\\",\\\"314\\\",\\\"020\\\",\\\"030\\\",\\\"150\\\"]}\"}",
         handler: function (request) {
-          return require("./fixtures/0-POST-localhost%2FtableService.json");
+          return require("./fixtures/0-POST-cedsci-web6.test.ditd.census.gov%2FrenderService.json");
         }
       }
     }

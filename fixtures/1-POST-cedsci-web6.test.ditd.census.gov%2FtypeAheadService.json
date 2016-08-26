@@ -1,0 +1,70 @@
+{
+  "response": [
+    {
+      "codes": [
+        "0500000US19051"
+      ],
+      "name": "Davis County, Iowa"
+    },
+    {
+      "codes": [
+        "0500000US49011"
+      ],
+      "name": "Davis County, Utah"
+    },
+    {
+      "codes": [
+        "0500000US46035"
+      ],
+      "name": "Davison County, South Dakota"
+    },
+    {
+      "codes": [
+        "0500000US13161"
+      ],
+      "name": "Jeff Davis County, Georgia"
+    },
+    {
+      "codes": [
+        "0500000US48243"
+      ],
+      "name": "Jeff Davis County, Texas"
+    },
+    {
+      "codes": [
+        "0500000US28065"
+      ],
+      "name": "Jefferson Davis County, Mississippi"
+    },
+    {
+      "codes": [
+        "0500000US22053"
+      ],
+      "name": "Jefferson Davis Parish, Louisiana"
+    },
+    {
+      "codes": [
+        "1600000US3716480"
+      ],
+      "name": "Davis CDP, North Carolina"
+    },
+    {
+      "codes": [
+        "1600000US1919090"
+      ],
+      "name": "Davis City city, Iowa"
+    },
+    {
+      "codes": [
+        "1600000US1718719"
+      ],
+      "name": "Davis Junction village, Illinois"
+    },
+    {
+      "codes": [
+        "1600000US0618100"
+      ],
+      "name": "Davis city, California"
+    }
+  ]
+}
